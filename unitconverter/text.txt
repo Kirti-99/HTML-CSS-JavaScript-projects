@@ -1,0 +1,350 @@
+function Main_selecter(){
+    let select = document.getElementById("main_select").value;
+    if(select == "Length")
+    {
+        document.getElementById("Length2").style.display = "block";
+        document.getElementById("Length1").style.display = "block";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+        document.getElementById("enargy1").style.display = "none";
+        document.getElementById("enargy2").style.display = "none";
+        document.getElementById("frequency1").style.display = "none";
+        document.getElementById("frequency2").style.display = "none";
+        document.getElementById("fuel1").style.display = "none";
+        document.getElementById("mass1").style.display = "none";
+        document.getElementById("fuel2").style.display = "none";
+        document.getElementById("mass2").style.display = "none";
+        document.getElementById("plane1").style.display = "none";
+        document.getElementById("plane2").style.display = "none";
+        document.getElementById("pressure1").style.display = "none";
+        document.getElementById("pressure2").style.display = "none";
+        document.getElementById("speed1").style.display = "none";
+        document.getElementById("speed2").style.display = "none";t
+        document.getElementById("temperature1").style.display = "none";
+        document.getElementById("temperature2").style.display = "none";
+    }
+    else if(select == "Area")
+    {
+        document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "block";
+        document.getElementById("area2").style.display = "block";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+         document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+          document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+         document.getElementById("first_in").value = 1;
+         document.getElementById("second_in").value = 1/1000000;
+    }
+    else if(select == "Data Transfer Rate")
+    {
+        document.getElementById("Data_trasfer1").style.display = "block";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "block";
+        document.getElementById("Length2").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+         document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+           document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+         document.getElementById("first_in").value = 1;
+         document.getElementById("second_in").value = 1/1000;
+    }
+    else if(select == "Digital Storage")
+    {
+        document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "block";
+        document.getElementById("digital_storage2").style.display = "block";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+         document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+           document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+          document.getElementById("first_in").value = 1;
+         document.getElementById("second_in").value = 1/1000;
+    }
+    else if(select == "Energy")
+    {
+        document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "block";
+         document.getElementById("enargy2").style.display = "block";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+         document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+           document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+          document.getElementById("first_in").value = 1;
+        document.getElementById("second_in").value = 1/4184;
+    }
+    else if(select == "Frequency")
+    {
+          document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "block";
+         document.getElementById("frequency2").style.display = "block";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+         document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+           document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+          document.getElementById("first_in").value = 1;
+        document.getElementById("second_in").value = 1/1000;
+    }
+    else if(select == "Fuel Economy")
+    {
+         document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "block";
+         document.getElementById("fuel2").style.display = "block";
+          document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+           document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+         document.getElementById("first_in").value = 1;
+        document.getElementById("second_in").value = 1*2.35214583;
+    }
+    else if(select == "Mass")
+    {
+        document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+          document.getElementById("mass1").style.display = "block";
+         document.getElementById("mass2").style.display = "block";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+           document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+         document.getElementById("first_in").value = 1;
+        document.getElementById("second_in").value = 1*1000;
+    }
+    else if(select == "Plane Angle")
+    {
+        document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+          document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "block";
+         document.getElementById("plane2").style.display = "block";
+         document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+           document.getElementById("first_in").value = 1;
+        document.getElementById("second_in").value = 1* (3.14/180);
+
+    }
+    else if(select== "Pressure")
+    {
+         document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+          document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+         document.getElementById("pressure1").style.display = "block";
+         document.getElementById("pressure2").style.display = "block";
+          document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+          document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+           document.getElementById("first_in").value = 1;
+        document.getElementById("second_in").value = 1/100000;
+    }
+    else if(select == "Speed")
+    {
+        document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+          document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+         document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+         document.getElementById("speed1").style.display = "block";
+         document.getElementById("speed2").style.display = "block";
+         document.getElementById("temperature1").style.display = "none";
+         document.getElementById("temperature2").style.display = "none";
+           document.getElementById("first_in").value = 1;
+        document.getElementById("second_in").value = 1*3.6;
+    }
+    else if(select == "Temperature")
+    {
+         document.getElementById("Length2").style.display = "none";
+        document.getElementById("Length1").style.display = "none";
+        document.getElementById("area1").style.display = "none";
+        document.getElementById("area2").style.display = "none";
+        document.getElementById("Data_trasfer1").style.display = "none";
+        document.getElementById("Data_trasfer2").style.display = "none";
+        document.getElementById("digital_storage1").style.display = "none";
+        document.getElementById("digital_storage2").style.display = "none";
+         document.getElementById("enargy1").style.display = "none";
+         document.getElementById("enargy2").style.display = "none";
+         document.getElementById("frequency1").style.display = "none";
+         document.getElementById("frequency2").style.display = "none";
+         document.getElementById("fuel1").style.display = "none";
+         document.getElementById("fuel2").style.display = "none";
+          document.getElementById("mass1").style.display = "none";
+         document.getElementById("mass2").style.display = "none";
+         document.getElementById("plane1").style.display = "none";
+         document.getElementById("plane2").style.display = "none";
+         document.getElementById("pressure1").style.display = "none";
+         document.getElementById("pressure2").style.display = "none";
+         document.getElementById("speed1").style.display = "none";
+         document.getElementById("speed2").style.display = "none";
+         document.getElementById("temperature1").style.display = "block";
+         document.getElementById("temperature2").style.display = "block";
+        document.getElementById("first_in").value = 0;
+        document.getElementById("second_in").value = (0*(9/5))+32;
+    }
+}
